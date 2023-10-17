@@ -17,7 +17,7 @@
                 <p class=" text-2xl">MaruuDrawing</p>
             </a>
         </div>
-        <div class="basis-1/4 flex justify-around ">
+        <!-- <div class="basis-1/4 flex justify-around ">
             <a href="<?= base_url('about');?>">
                 <p class=" text-md">About</p>
             </a>
@@ -27,7 +27,7 @@
             <a href="<?= base_url('contact');?>">
                 <p class=" text-md">Contact</p>
             </a>
-        </div>
+        </div> -->
     </nav>
 
     <?= $this->renderSection('content');?>

@@ -1,3 +1,7 @@
 * {
     font-family: 'Courier New', Courier, monospace;
 }
+
+.navbar-fixed {
+    @apply fixed z-[9999] bg-red-400;
+}

@@ -46,26 +46,30 @@
             <img class="rounded-xl md:h-32 xl:h-52 sm:h-full" src="pictures/mySeventhSketching.webp" alt="">
             <img class="rounded-xl md:h-32 xl:h-52 sm:h-full" src="pictures/myEightSketching.webp" alt="">
         </div>
+        <div class=" carousel md:hidden relative">
+            <img class="h-full carousel-img rounded-xl" src="pictures/mySixthSketching.webp" alt="">
+            <span class="text-3xl cursor-pointer md:hidden absolute top-[50%] text-white -translate-x-0 translate-y-[-50%] left-5 rounded-full p-2  cursor-pointer ">
+                <ion-icon class="chevron-back-outline" name="chevron-back-outline"></ion-icon>
+            </span>
+            <span class="text-3xl cursor-pointer md:hidden absolute top-[50%] text-white -translate-x-0 translate-y-[-50%] right-5 rounded-full p-2  cursor-pointer">
+                <ion-icon class="chevron-forward-outline" name="chevron-forward-outline"></ion-icon>
+            </span>
+        </div>
         <div class="flex items-center justify-center">
             <div class="mt-5">
                 <p class=" text-center text-xl">I keep learning and practicing even I have no time to do it</p>
                 <p class=" text-center text-xl">by watching some tutorial videos on Youtube and Instagram as an inpsiration. </p>
             </div>
         </div>
-        <div class="p-5 md:hidden">
-            <img class="mt-5 rounded-xl" src="pictures/mySixthSketching.webp" alt="">
-            <img class="mt-5 rounded-xl" src="pictures/mySeventhSketching.webp" alt="">
-            <img class="mt-5 rounded-xl" src="pictures/myEightSketching.webp" alt="">
-        </div>
-
+        
     </div>
 
 
     <div class="main lg:mx-32 mx-6 my-20 mx-6">
         <div class=" md:flex md:justify-center md:space-x-4">
-            <img class="rounded-xl md:h-96 mt-5"  src="pictures/mySecondSketching.webp" alt="">
-            <img class="rounded-xl md:h-96 mt-5"  src="pictures/myThirdSketching.webp" alt="">
-            <img class="rounded-xl md:h-96 mt-5"  src="pictures/myFourthSketching.webp" alt="">
+            <img class="rounded-xl md:h-96 mt-5" src="pictures/mySecondSketching.webp" alt="">
+            <img class="rounded-xl md:h-96 mt-5" src="pictures/myThirdSketching.webp" alt="">
+            <img class="rounded-xl md:h-96 mt-5" src="pictures/myFourthSketching.webp" alt="">
         </div>
     </div>
 
@@ -79,8 +83,8 @@
 
     <div class="main lg:mx-52 mx-6 my-20 mx-6">
         <div class="md:flex md:justify-center md:space-x-8">
-            <img class="rounded-xl md:h-96 mt-5" style="" src="pictures/myPostedSketching1.webp" alt="">
-            <img class="rounded-xl md:h-96 mt-5" style="" src="pictures/myPostedSketching2.webp" alt="">
+            <iframe src="https://www.instagram.com/p/Cxh4rJTJBMw/embed" class="md:h-[500px] md:w-[400px] h-[500px]" scrolling="no" frameborder="0"></iframe>
+            <iframe src="https://www.instagram.com/p/CrnYkgXyvLJ/embed" class="md:h-[600px] md:w-[400px] h-[500px]" scrolling="no" frameborder="0"></iframe>
         </div>
     </div>
 
@@ -92,7 +96,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="main mx-6 my-10">
         <div class="flex items-center justify-center">
             <div class="my-10" style="width: 100%;">

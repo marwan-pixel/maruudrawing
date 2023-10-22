@@ -1,7 +1,23 @@
 * {
     font-family: 'Courier New', Courier, monospace;
 }
-
-.navbar-fixed {
-    @apply fixed z-[9999] bg-red-400;
-}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+.carousel-img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    opacity: 0; /* Start with 0 opacity */
+    transition: opacity 0.3s ease; 
+  }
+  
